@@ -1,9 +1,10 @@
+// LIBRARY IMPORTS
 import React from 'react';
 
-const Openday = ()=>{
+const Header = ()=>{
   return (
     <div></div>
   )
 }
 
-export default Openday;
+export default Header;
