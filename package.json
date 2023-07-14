@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/avinashi10/pickleball#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
+    "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.2",
     "dotenv-webpack": "^8.0.1",
     "postcss": "^8.4.26",
@@ -34,6 +34,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@heroicons/react": "^2.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
