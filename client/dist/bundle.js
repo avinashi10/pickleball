@@ -35,27 +35,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Pickleball101_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Pickleball101.jsx */ "./client/src/components/Pickleball101.jsx");
-/* harmony import */ var _Openday_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Openday.jsx */ "./client/src/components/Openday.jsx");
+/* harmony import */ var _OpenPlay_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OpenPlay.jsx */ "./client/src/components/OpenPlay.jsx");
 /* harmony import */ var _PrivateLessons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PrivateLessons */ "./client/src/components/PrivateLessons.jsx");
 /* harmony import */ var _About_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./About.jsx */ "./client/src/components/About.jsx");
+// LIBRARY IMPORTS
 
+
+//LOCAL IMPORTS
 
 
 
 
 function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: "relative h-32 text-center mt-9 text-lg"
-  }, "Pickleball lessons with Darlene"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Pickleball101_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Openday_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PrivateLessons__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_About_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "bg-light min-h-screen"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "font-sans text-red relative h-32 text-center mt-9 text-lg"
+  }, "Pickleball lessons with Darlene"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Pickleball101_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_OpenPlay_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PrivateLessons__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_About_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
 /***/ }),
 
-/***/ "./client/src/components/Openday.jsx":
-/*!*******************************************!*\
-  !*** ./client/src/components/Openday.jsx ***!
-  \*******************************************/
+/***/ "./client/src/components/Header.jsx":
+/*!******************************************!*\
+  !*** ./client/src/components/Header.jsx ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -64,11 +69,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+// LIBRARY IMPORTS
 
-var Openday = function Openday() {
+var Header = function Header() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null);
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Openday);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
+
+/***/ }),
+
+/***/ "./client/src/components/OpenPlay.jsx":
+/*!********************************************!*\
+  !*** ./client/src/components/OpenPlay.jsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.jsx */ "./client/src/components/Header.jsx");
+// LIBRARY IMPORTS
+
+
+// LOCAL IMPORTS
+
+var OpenPlay = function OpenPlay() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null);
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (OpenPlay);
 
 /***/ }),
 
